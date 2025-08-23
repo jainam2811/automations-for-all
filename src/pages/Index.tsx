@@ -1,12 +1,27 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Hero from "@/components/Hero";
+import NewEra from "@/components/NewEra";
+import TargetAudience from "@/components/TargetAudience";
+import Problem from "@/components/Problem";
+import Solution from "@/components/Solution";
+import Testimonials from "@/components/Testimonials";
+import CourseOffering from "@/components/CourseOffering";
+import Pricing from "@/components/Pricing";
+import Founder from "@/components/Founder";
+import FinalCTA from "@/components/FinalCTA";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Hero />
+      <NewEra />
+      <TargetAudience />
+      <Problem />
+      <Solution />
+      <Testimonials />
+      <CourseOffering />
+      <Pricing />
+      <Founder />
+      <FinalCTA />
     </div>
   );
 };
